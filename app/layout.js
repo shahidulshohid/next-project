@@ -34,7 +34,7 @@ export default async function RootLayout({ children }) {
         <nav className="flex justify-between items-center">
           <div>
             <Link href="/">
-              <h3 className="text-xl md:text-2xl font-bole">Next Project</h3>
+              <h3 className="text-xl md:text-2xl font-bold">Next Project</h3>
             </Link>
           </div>
           <ul className="flex gap-5">

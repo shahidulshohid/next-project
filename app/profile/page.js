@@ -2,7 +2,6 @@ import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 const Profile = async () => {
   const { getUser, isAuthenticated} = getKindeServerSession();
   const user = await getUser();
-  console.log(user);
   return (
     <main className="mt-10">
       <h2 className="text-3xl font-bold text-center mt-20 mb-5">
