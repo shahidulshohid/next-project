@@ -13,7 +13,7 @@ const Profile = async () => {
           <p className="font-semibold">{user.email}</p>
         </div>
       ) : (
-        <p>Please sign in or register!</p>
+        <p>Please sign in or register to entry this page!</p>
       )}
     </main>
   );
